@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Raxit Gondaliya</title>
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- main css file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!------------ header --------------->
+    <header id="header">
+        <div class="container">
+            <a href="#home" class="name">
+                Raxit Gondaliya
+            </a>
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#home" class="menu_link active-link ">Home</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#about" class="menu_link">About</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#resume" class="menu_link">Resume</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#project" class="menu_link">Project</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#contact" class="menu_link">Contact</a>
+                </li>
+                <ion-icon name="close-outline" class="close_icon"></ion-icon>
+            </ul>
+            <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
+
+        </div>
+    </header>
+
+    <main>    
+        <!----------- home section------------>
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content">
+                    <h4> Hii,</h4> 
+                    <h1>I'm Raxit Gondaliya</h1>
+                    <p>
+                        I'm a passionate software developer and designer with a strong foundation in HTML, CSS, and JavaScript, which I use to build responsive and dynamic web interfaces. I'm also skilled in Java and Android development, enabling me to create functional and user-friendly mobile applications. With experience in Flutter, I craft cross-platform apps with modern UI, and my knowledge of PHP helps me develop robust backend solutions. As a fresher, I'm constantly expanding my skill set and excited to apply my abilities to innovative and real-world projects.
+                    </p>
+                    <div class="home_social">
+                        <a href="https://www.linkedin.com/in/raxit-gondaliya-91b2812a9/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://github.com/raxitgondaliya"><ion-icon name="logo-github"></ion-icon></a>
+                    </div>
+                    <a href="#contact" class="btn">
+                        Contact Me
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                </div>
+                <div class="home_img">
+                    <img src="https://static.vecteezy.com/system/resources/previews/014/160/782/non_2x/freelancer-young-boy-sitting-on-the-chair-working-with-laptop-at-home-flat-illustration-vector.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <!------------about section--------------->
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+
+            <div class="about_container container grid">
+                <div class="about_img">
+                    <img src="https://static.vecteezy.com/system/resources/previews/007/012/910/non_2x/the-boy-working-on-a-laptop-vector.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="about_content">
+                    <h1>I make professional and creative design.</h1>
+                    <p>I am a BCA graduate with a strong foundation in programming, databases, and computer applications. I further enhanced my technical skills by completing an MCA, where I gained deeper knowledge in software development, data structures, and advanced computing concepts. Throughout my academic journey, I developed a strong interest in web and app development.<br>
+
+                    I have worked with various programming languages and technologies including HTML, CSS, JavaScript, Java, PHP, C, C++, and SQL. I also explored modern tools like Android Studio and Flutter for mobile development. I enjoy learning new technologies and am passionate about creating innovative and user-friendly digital solutions that solve real-world problems.</p>
+                    <!--div class="about_info">
+                        <div>
+                            <span class="number">200</span>
+                            <br>
+                            <span class="text">Completed<br>projects</span>
+                        </div>
+                        <div>
+                            <span class="number">120</span>
+                            <br>
+                            <span class="text">positive<br>review</span>
+                        </div>
+                    </div-->
+                </div>
+            </div>
+
+        </section>
+
+        <!------------ Resume section --------------->
+        <section class="resume section" id="resume">
+            <h2 class="section_title">Resume</h2>
+
+            <div class="resume_container container grid">
+                <div class="resume_tabs">
+                    <ul>
+                        <li>
+                            <a href="#page-1" class="current">Education</a>
+                        </li>
+                        <!--<li>
+                            <a href="#page-2">Experience</a>
+                        </li>-->
+                        <li>
+                            <a href="#page-3">Skills</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+                <div class="resume_content">
+
+                    <!-- page1 -->
+                    <div id="page-1" class="page one">
+                        <div class="page_heading">Education</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <i class='bx bxs-graduation'></i>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2021-2024</span>
+                                <h4>  BCA (Bachelor of Computer Applications) </h4>
+                                <span class="position">
+                                    C.U Shah University,Surendranager.
+                                </span>
+                                <p>I completed my Bachelor of Computer Applications (BCA), where I built a strong foundation in programming, databases, and computer systems. During this time, I developed an interest in web and software development and explored various technologies through academic projects and personal learning.   </p>
+                            </div>
+                        </div>
+
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <i class='bx bxs-graduation'></i>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2024-present</span>
+                                <h4>  MCA (Master of Computer Applications) </h4>
+                                <span class="position">
+                                    LDRP Institute of Technology and Research, Gandhinagar.
+                                </span>
+                                <p> After BCA, I pursued a Master of Computer Applications (MCA) to deepen my understanding of advanced computing concepts. This program helped me improve my problem-solving skills and gain more knowledge in areas like software engineering, data structures, and mobile application development.  </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- page2 -->
+                    <!--<div id="page-2" class="page two">
+                        <div class="page_heading">Experience</div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <i class='bx bxs-briefcase' ></i>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2024</span>
+                                <h4>Full-Stack Developer (MERN) - Internship</h4>
+                                <span class="position">
+                                    Grras Solution Pvt. Ltd., Navrangpura, Ahmedabad.  
+                                </span>
+                                <p>Completed a MERN Stack Developer internship/training, gaining hands-on experience in developing full-stack web applications using React, Node.js, Express, and MongoDB. Contributed to real-world projects, enhancing my skills in JavaScript and Git.</p>
+                            </div>
+                        </div>
+                    </div>-->
+                    
+                    <!-- page3 -->
+                    <div id="page-3" class="page three">
+                        <div class="page_heading">Skills</div>
+                        <div class="skills_container grid">
+                            <div class="skill_box">
+                                <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML Logo" class="skill_logo"/>
+                                <div class="skill_name">HTML</div>
+                            </div>
+                            <div class="skill_box">
+                                <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS Logo" class="skill_logo"/>
+                                <div class="skill_name">CSS</div>
+                            </div>
+                            <div class="skill_box">
+                                <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript Logo" class="skill_logo"/>
+                                <div class="skill_name">JavaScript</div>
+                            </div>
+                            <div class="skill_box">
+                                <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png" alt="jQuery Logo" class="skill_logo"/>
+                                <div class="skill_name">jQuery</div>
+                            </div>
+                            <div class="skill_box">
+                                <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="Java Logo" class="skill_logo"/>
+                                <div class="skill_name">Java</div>
+                            </div>
+                            <div class="skill_box">
+                                <img src="https://img.icons8.com/color/48/000000/android-os.png" alt="Android Logo" class="skill_logo"/>
+                                <div class="skill_name">Android</div>
+                            </div>
+                            <div class="skill_box">
+                                <img src="https://img.icons8.com/color/48/000000/flutter.png" alt="Flutter Logo" class="skill_logo"/>
+                                <div class="skill_name">Flutter</div>
+                            </div>                            
+                            <div class="skill_box">
+                                <img src="https://img.icons8.com/officel/48/000000/php-logo.png" alt="PHP Logo" class="skill_logo"/>
+                                <div class="skill_name">PHP</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+        
+        <!------------ project section --------------->
+        <section class="project section" id="project">
+            <h2 class="section_title">project</h2>
+
+            <div class="project_container container">
+                <ul class="project_filters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-app">App</li>
+                   <!-- <li data-filter=".filter-card">Card</li> -->
+                    <li data-filter=".filter-web">Web</li>
+                </ul>
+
+                <div class="project_wrap-container">                  
+
+                    <div class="project_item filter-web">
+                        <div class="project_wrap">
+                            <img src="image/hotel-booking.png" alt="project ni img" class="img-fluid">
+                            <div class="project_info">
+                                <h4>web 1</h4>
+                                <p>Hotel booking</p>
+                                <div class="project_links">
+                                    <a href="#"><box-icon name='plus'></box-icon></a>
+                                    <a href="#"><box-icon name='link'></box-icon></a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+
+            </div>
+        </section>
+
+        <!------------ Contact section --------------->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+            <div class="contact_container container">
+                <div class="contact_content">
+                    <div class="inputs">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <input type="password" placeholder="Password">
+                    <textarea name="" id="" cols="30" roes="10" placeholder="Message"></textarea>
+                    <a href="#" class="btn">Send Message
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </section>        
+
+        <!--------------- footer ------------------->
+        <footer>
+            <div class="footer_bg">
+                <div class="footer_container container">
+                    <div class="main_footer">
+                        <h3>Get in touch</h3>
+                        <div class="footer_social">
+                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        </div>
+
+                        <div class="footer_copy">&copy; 2024  Raxit Gondaliya. All rights reserved.</div>
+                    </div>
+                </div>
+            </div>
+        </footer> 
+
+    </main>
+   
+    <!-- Mixitup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    
+    <!-- type js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- main script -->
+    <script src="script.js"></script>
+
+</body>
+</html>
